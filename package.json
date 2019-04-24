@@ -1,0 +1,30 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "webpack weather-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack --config config/webpack.dev.config.js",
+    "start": "npx webpack --config config/webpack.prod.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhenyaBachilo/weather-app.git"
+  },
+  "keywords": [
+    "my",
+    "webpack",
+    "practice"
+  ],
+  "author": "Zhenya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZhenyaBachilo/weather-app/issues"
+  },
+  "homepage": "https://github.com/ZhenyaBachilo/weather-app#readme",
+  "devDependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  }
+}
